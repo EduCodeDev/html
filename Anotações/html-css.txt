@@ -1,0 +1,56 @@
+Header - Cabeçalho
+main - conteudo principal
+footer - rodape
+
+nav - barra de navegação
+aside - relacionado ao anterior
+article - artigo/noticia
+
+top - topo
+right - direita
+left - esquerda
+bottom - inferior
+
+height - Altura
+width - Largura
+border - borda
+padding - Espaço interno
+margin - Espaço Externo. 
+outline - contorno/trassamento
+
+
+Tipos de Caixas
+
+Box Level - Ocupa toda a largura da caixa.
+
+<div>
+<h1> - <h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+Inline Level - Ocupa apenas o espaço nescessario para o conteudo e segue a frente.
+
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> - <sub>
+<label>
+<input>
+<select>
+
+
+-----------------------------------------------------------------------------------------
+Para arredondar bordas
+border radius - 10px
+
+-----------------------------------------------------------------------------------------
