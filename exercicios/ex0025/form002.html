@@ -9,13 +9,21 @@
 
 <body>
     <h1>Teste de Formulario</h1>
-    <form action="cadastro.php" method="get"></form>
+    <form action="cadastro.php" method="post">
 
-    <div>
-        <label for="nome">Usuário:</label>
-        <input type="text" name="nome" id="nam">
-    </div>
+        <div>
+            <label for="usu">Usuário:</label>
+            <input type="text" name="usu" id="usu" required minlength="5" maxlength="15" size="8" placeholder="nome do usuario"> 
+        </div>
 
+        <div>
+            <label for="sen">Senha:</label>
+            <input type="password" name="sen" id="sen" required minlength="8" maxlength="20" size="8" placeholder="minimo de 8 letras">
+        </div>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
 </body>
 
 </html>
